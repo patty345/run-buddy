@@ -12,3 +12,5 @@ A website that offers fintess training services.
  
  ## Contribution 
  Made with ❤️ by Patricia Derieux
+
+### ©️2019 Run Buddy, Inc 
