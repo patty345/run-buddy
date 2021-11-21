@@ -16,5 +16,3 @@ https://patty345.github.io/run-buddy/
 ## Contribution
 
 Made with ❤️ by Patricia Derieux
-
-# Run Buddy Inc.
