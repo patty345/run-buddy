@@ -1,14 +1,20 @@
 # run-buddy
 
 ## Purpose
-A website that offers fintess training services. 
+
+A website that offers fintess training services.
 
 ## Built With
-* HTML
-* CSS
+
+- HTML
+- CSS
 
 ## Website
- https://patty345.github.io/run-buddy/
- 
- ## Contribution 
- Made with ❤️ by Patricia Derieux
+
+https://patty345.github.io/run-buddy/
+
+## Contribution
+
+Made with ❤️ by Patricia Derieux
+
+# Run Buddy Inc.
