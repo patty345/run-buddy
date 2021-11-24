@@ -57,6 +57,12 @@ header nav ul li a {
   font-weight: lighter;
   font-size: 1.55vw;
 }
+header nav ul li a:hover {
+  background: #fce138;
+  color: #024e76;
+  border-radius: 15px;
+  text-shadow: none;
+}
 footer {
   background: #fce138;
   width: 100%;
@@ -120,8 +126,11 @@ section {
   width: 40%;
   margin: 3.5%;
   border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
+.hero-form button:hover {
+  background-color: #39a6b2;
+}
 .hero-form h3 {
   font-size: 24px;
   margin: 0;
@@ -171,13 +180,14 @@ section {
   margin: 50px auto;
   padding-bottom: 50px;
   width: 80%;
-  border-bottom: 1px solid #39a6b2;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
-
+.step:nth-child(even) {
+  border-bottom: 1px solid #39a6b2;
+}
 .step h3 {
   color: #024e76;
   font-size: 46px;
@@ -339,12 +349,25 @@ section {
   font-size: 16px;
   border-radius: 10px;
 }
-
+.contact-form button:hover {
+  color: #fce138;
+  background: #39a6b2;
+}
 .contact-info a {
   color: #fce138;
 }
 .flex-row {
   display: flex;
+}
+/* update existing rule with this declaration */
+.form-input {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+/* create a new rule for focus state */
+.form-input:focus {
+  background-color: rgba(255, 255, 255, 1);
+  outline: none;
 }
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
